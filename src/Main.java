@@ -1,29 +1,20 @@
+import figures.Line;
+import figures.Square;
+
 public class Main {
     public static void main(String[] args) {
         //Examples for printLine method
-        printLine(5);
-        printLine(10);
+        Line line1 = new Line(5);
+        line1.printLine();
+        Line line2 = new Line(10);
+        line2.printLine();
         //Examples for pintSquare method
-        printSquare(6);
-        printSquare(4);
-    }
-    public static void printLine(int n){
-        System.out.println("----------------- Printing Line (" +  n  +")----------------");
-        System.out.println(" ");
-        for(int i = 0; i < n; i++) {
-            System.out.print("* ");
-        }
-        System.out.println(" ");
+        Square square1 = new Square(6);
+        square1.printSquare();
+        Square square2 = new Square(4);
+        square2.printSquare();
     }
 
-    public static void printSquare(int n) {
-        System.out.println("----------------- Printing Square (" +  n  +")----------------");
-        System.out.println(" ");
-        for(int h = 0; h < n; h++) {
-            for(int w = 0; w < n; w++) {
-                System.out.print(" * ");
-            }
-            System.out.println(" ");
-        }
-    }
+
+
 }
