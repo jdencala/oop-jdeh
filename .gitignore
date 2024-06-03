@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea/vcs.xml
+oop-jdeh.iml
 
 ### Eclipse ###
 .apt_generated

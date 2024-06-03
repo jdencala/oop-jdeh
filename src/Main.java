@@ -1,4 +1,5 @@
 import figures.Line;
+import figures.Rectangle;
 import figures.Square;
 
 public class Main {
@@ -13,8 +14,8 @@ public class Main {
         square1.printSquare();
         Square square2 = new Square(4);
         square2.printSquare();
+        //Examples for print rectangle method
+        Rectangle rectangle = new Rectangle(6, 4);
+        rectangle.printRectangle();
     }
-
-
-
 }
