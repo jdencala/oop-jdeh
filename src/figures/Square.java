@@ -20,6 +20,11 @@ public class Square {
         }
     }
 
+    public void printPerimeter() {
+        double perimeter = length * 4;
+        System.out.println("Square Perimeter: " + perimeter + " [cm]");
+    }
+
     public int getLength() {
         return  length;
     }

@@ -23,6 +23,11 @@ public class Rectangle {
         }
     }
 
+    public void printPerimeter() {
+        double perimeter = (width * 2) + (height * 2);
+        System.out.println("Rectangle Perimeter: " + perimeter + " [cm]");
+    }
+
     public int getWidth() {
         return width;
     }
